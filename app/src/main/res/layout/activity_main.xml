@@ -5,32 +5,38 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="soeonkim.kr.hs.emirim.edittexttest1.MainActivity"
-    android:orientation="horizontal">
+    android:orientation="vertical">
 
-    <TextView
+    <!--<TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="EditTExt Examl1"
+        android:text="This is Text view"
         android:textSize="30sp"
-        android:gravity="center"/>
+        android:gravity="center"/>!-->
 
     <EditText
         android:id="@+id/edit1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="성명을 입력해주세요"/>
+        android:text="This is EditText"
+        android:hint="성명을 입력해주세요"
+        android:layout_margin="10dp"/>
 
     <Button
         android:id="@+id/but_ok"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="확인" />
+        android:text="check"
+        android:layout_margin="10dp"
+        />
 
     <TextView
         android:id="@+id/text_result"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:text="This is TextView"
         android:textSize="20sp"
+        android:layout_margin="10dp"
         />
 
 </LinearLayout>
